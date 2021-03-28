@@ -18,7 +18,7 @@ function startPath(){
     
 }
 function draw(){
-    background("white");
+    background("black");
 
     if(mouseIsPressed) {
         var point = {
@@ -28,8 +28,8 @@ function draw(){
         currentPath.push(point);
     }
     noFill("red");
-    stroke(0);
-    strokeWeight(4);
+    stroke(255);
+    strokeWeight(5);
     
     for(var i = 0; i< drawing.length; i++){
         var path = drawing[i];
